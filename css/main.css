@@ -6,6 +6,8 @@
 */
 
 body {
+
+  font-family: 'Poppins', sans-serif;
   /* Default font family and font color */
 }
 
@@ -63,3 +65,26 @@ a:hover {
 * Components
 * ----------
 */
+.entete{
+  background-color: #fcce00;
+  color : white;
+  text-align : center;
+  font-weight: 900;
+  padding-top: 0 px;
+  padding-bottom: 80 px;
+  margin-bottom: 64px;
+}
+
+.entete_titre {
+  margin : 0;
+  font-size: 88px;
+  text-transform: uppercase;
+}
+
+.entete_sous_titre {
+  font-size : 38px;
+}
+.titre_rectangle1 {
+text-align : center;
+font-size: 40px;
+}
