@@ -88,3 +88,44 @@ a:hover {
 text-align : center;
 font-size: 40px;
 }
+
+.colonnes {
+  background-color : grey;
+  color : black;
+  padding : 10 px;
+  display : flex;
+  justify-content : space-around;
+  align-items: center;
+}
+
+.texte-colonne
+{
+  width: 640px;
+  height: 345px;
+  font-family: Poppins;
+  font-size: 6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+
+}
+.image_ordi1
+{
+width: 487px;
+height: 471px;
+object-fit: contain;
+}
+
+.block-image {
+  position : relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20 px;
+  margin: 10 px;
+
+}
+
