@@ -153,7 +153,7 @@ margin-bottom: 64px;
     border: solid 4px var(--sunflower-yellow);
   }
 
-  .block_2
+.block_2
   {
     position : relative;
     flex-basis: 0;
@@ -180,10 +180,88 @@ margin-bottom: 64px;
   #FFA463 75%, #FFC296 75%, #FFC296 88%, #FFE1CC 88% )
 
 }
-  .image_ordi2
+.image_ordi2
   {
 width: 378px;
 height: 486px;
  object-fit: contain;
  mix-blend-mode: darken;
   }
+
+  .colonne_arcade { 
+    color: black; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background: linear-gradient(to bottom, #E64A4A 50%, #EC7676 50%, #EC7676 75%, #F2A3A3 75%, #F2A3A3 88%, #F9D2D2 88% );
+   } 
+   .bloc_arcade { 
+     position:relative; 
+     flex-basis: 0; 
+     flex-grow: 1; 
+    } 
+
+.texte_arcade{
+  width: 640px; 
+   height: 345px; 
+  font-family: Poppins; 
+  font-size: 16px;
+  text-align: justify; 
+  color:white; 
+  margin-left:60px;
+ } 
+
+  .image_arcade{
+    mix-blend-mode: darken; 
+    width: 745px; height: 576px;
+   } 
+   
+   .colonne_TV { 
+     color: black; 
+     padding: 10px; 
+     display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background: linear-gradient(to bottom, #C34AE6 50%, #D276EC 50%, #D276EC 75%, #E1A3F2 75%, #E1A3F2 88%, #F0D2F9 88% ); 
+  }
+
+  .bloc_TV { position:relative; flex-basis: 0; flex-grow: 1; } .texte_TV{ width: 640px; height: 345px; font-family: Poppins; font-size: 16px; text-align: justify; color:white; margin-left:60px; } 
+    
+.image_colorTV{ 
+  mix-blend-mode: darken; 
+  width: 745px; 
+  height: 576px; 
+} 
+   
+.colonne_computer { 
+  color: black; 
+  padding: 10px; 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  background: linear-gradient(to bottom, #7F5BFF 50%, #9F84FF 50%, #9F84FF 75%, #BEACFF 75%, #BEACFF 88%, #DFD6FF 88% );
+}  
+
+.bloc_computer {
+   position:relative; 
+   flex-basis: 0; 
+   flex-grow: 1; 
+   display : flex;
+   
+  } 
+
+.texte_computer{ width: 640px; height: 345px; 
+    font-family: Poppins; 
+    font-size: 16px; 
+    text-align: justify; 
+    color:white; 
+    margin-left:60px; 
+  } 
+
+  .image_computer{ 
+    mix-blend-mode: darken;
+    width: 745px; 
+    height: 576px; 
+  } 
+  
